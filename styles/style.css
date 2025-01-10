@@ -8,6 +8,16 @@
       "wdth" 100;
   }
 
+  /* header image */
+
+  .header{
+    background-image: url(/images/developer.png),url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    margin-top: 38px;
+background-position: top left,bottom right;
+}
+
 /* Nav Styles */
 nav{
     display: flex;
@@ -56,4 +66,42 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+ }
+ .content-hi{
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+ }
+ .content-name{
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .content-text{
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+ }
+ .profile-pic{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
+ }
+ .banner{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 35px 0 200px;
+ }
+ .banner-content{
+    max-width: 585px;
  }
